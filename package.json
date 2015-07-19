@@ -1,0 +1,19 @@
+{
+    "name"         : "InsteonMQTT",
+    "version"      : "0.1.0",
+    "description"  : "Node.js gateway for Insteon & MQTT bindings",
+    "homepage"     : "https://github.com/guibom/InsteonMQTT",
+    "license"      : "MIT",
+    "repository"   : {
+        "type":"git",
+        "url":"https://github.com/guibom/InsteonMQTT.git"
+    },
+    "main"         : "WebMQonttrol_server.js",
+    "dependencies": {
+        "mqtt": "*",
+        "home-controller": "*"
+    },
+    "engines": {
+        "node": ">=0.8"
+    }
+}
